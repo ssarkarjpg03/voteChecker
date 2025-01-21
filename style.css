@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,9 +22,9 @@ body {
     width: 260px;
     height: 50px;
     margin-bottom: 10px;
-    text-align: right;
+    text-align: center;
     padding: 10px;
-    font-size: 2em;
+    font-size: 25px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #e6e6e6;
@@ -42,7 +43,7 @@ button{
 #check {
     margin: 20px 0 0 0;
     width: 260px;
-    height: 100px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
